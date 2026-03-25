@@ -1,22 +1,22 @@
-/* Main images and favorites container */
+
 #pics, #favorites {
-    display: flex;           /* lay images horizontally */
-    flex-wrap: nowrap;       /* prevent wrapping to next line */
-    gap: 10px;               /* space between images */
-    overflow-x: auto;        /* scroll if too many images */
+    display: flex;           
+    flex-wrap: nowrap;       
+    gap: 10px;               
+    overflow-x: auto;        
     padding: 10px;
-    border: 2px solid #ccc;  /* optional border for favorites */
+    border: 2px solid #ccc;  
 }
 
-/* Make sure fieldset looks neat */
+
 #favorites {
-    min-height: 120px;       /* adjust height to fit images */
+    min-height: 120px;       
 }
 
-/* Images styling */
+
 .mandela {
     width: 100px;
     height: 100px;
-    object-fit: cover;       /* keep aspect ratio */
+    object-fit: cover;       
     cursor: pointer;
 }
