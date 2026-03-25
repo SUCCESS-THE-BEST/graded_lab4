@@ -10,7 +10,7 @@ images.forEach(function(img, index) {
 
     img.onclick = function () {
 
-        // IF NOT selected → move to favorites
+        // IF the pic is not selected move to favorites
         if (!img.classList.contains("selected")) {
 
             fav.appendChild(img);
@@ -30,7 +30,7 @@ images.forEach(function(img, index) {
             }
 
         } 
-        // ELSE → move back
+        //when it is selected again move back
         else {
 
             pics.appendChild(img);
